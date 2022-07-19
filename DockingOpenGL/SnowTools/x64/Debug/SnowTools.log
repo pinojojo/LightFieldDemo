@@ -1,10 +1,1 @@
-﻿  DataPool.cpp
-  DataType.cpp
-  Image2D.cpp
-  SnowParam.cpp
-  Texture2D.cpp
-D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\OpenGL-Core\src\GLCore\Util\PerspectiveCamera.h(51,16): warning C4305: 'initializing': truncation from 'double' to 'float'
-  TextureFilter.cpp
-D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\OpenGL-Core\src\GLCore\Util\PerspectiveCamera.h(51,16): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Generating Code...
-  SnowTools.vcxproj -> D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\x64\Debug\SnowTools.lib
+﻿  SnowTools.vcxproj -> D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\x64\Debug\SnowTools.lib

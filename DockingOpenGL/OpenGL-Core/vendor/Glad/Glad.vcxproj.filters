@@ -21,9 +21,15 @@
     <ClInclude Include="include\glad\glad.h">
       <Filter>include\glad</Filter>
     </ClInclude>
+    <ClInclude Include="include\glad\glad_wgl.h">
+      <Filter>include\glad</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\glad.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad_wgl.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
