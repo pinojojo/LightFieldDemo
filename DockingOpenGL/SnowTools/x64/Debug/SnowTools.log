@@ -1,0 +1,6 @@
+﻿  Texture2D.cpp
+D:\dev-framework\gui-start\DockingOpenGL\OpenGL-Core\src\GLCore\Util\PerspectiveCamera.h(51,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+  TextureFilter.cpp
+D:\dev-framework\gui-start\DockingOpenGL\OpenGL-Core\src\GLCore\Util\PerspectiveCamera.h(51,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  SnowTools.vcxproj -> D:\dev-framework\gui-start\DockingOpenGL\x64\Debug\SnowTools.lib

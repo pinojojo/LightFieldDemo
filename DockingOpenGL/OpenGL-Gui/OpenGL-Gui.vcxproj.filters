@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ContainerLayer.cpp" />
+    <ClCompile Include="src\app.cpp" />
+    <ClCompile Include="LayerRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ContainerLayer.h" />
+    <ClInclude Include="LayerRenderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\polyline.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\polyline.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\shaders\renderer\grid.frag">
+      <Filter>assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{fd1807bf-ff34-4ee9-81d5-f5c22090a4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{e64d3f19-06a5-4ec3-a184-31d6b1ec48e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

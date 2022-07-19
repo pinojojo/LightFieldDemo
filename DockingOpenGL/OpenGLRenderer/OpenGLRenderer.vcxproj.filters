@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="TemplateCube.h" />
+    <ClInclude Include="LightSource.h" />
+    <ClInclude Include="SliceRenderer.h" />
+    <ClInclude Include="SvgParser.h" />
+    <ClInclude Include="SlicerDefineType.h" />
+    <ClInclude Include="InfiniteGrid.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TemplateCube.cpp" />
+    <ClCompile Include="LightSource.cpp" />
+    <ClCompile Include="SliceRenderer.cpp" />
+    <ClCompile Include="SvgParser.cpp" />
+    <ClCompile Include="SlicerDefineType.cpp" />
+    <ClCompile Include="InfiniteGrid.cpp" />
+  </ItemGroup>
+</Project>
