@@ -1,3 +1,1 @@
-﻿  TemplateCube.cpp
-D:\dev-framework\gui-start\DockingOpenGL\OpenGL-Core\src\GLCore\Util\PerspectiveCamera.h(51,16): warning C4305: 'initializing': truncation from 'double' to 'float'
-  OpenGLRenderer.vcxproj -> D:\dev-framework\gui-start\DockingOpenGL\x64\Debug\OpenGLRenderer.lib
+﻿  OpenGLRenderer.vcxproj -> D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\x64\Debug\OpenGLRenderer.lib

@@ -1,0 +1,3 @@
+﻿  LightFieldController.cpp
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\OpenGL-Core\src\GLCore\Util\PerspectiveCamera.h(51,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+  LightField.vcxproj -> D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\x64\Debug\LightField.lib

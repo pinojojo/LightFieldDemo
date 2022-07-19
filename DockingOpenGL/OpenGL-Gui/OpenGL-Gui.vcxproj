@@ -106,6 +106,9 @@
     <ProjectReference Include="..\ImWidgts\ImWidgts.vcxproj">
       <Project>{aa9c3fcc-7d2b-48e7-8d26-e731733337d6}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\LightField\LightField.vcxproj">
+      <Project>{1aa6537a-4772-4696-abbb-a04f00e9d5b4}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\OpenGL-Core\OpenGL-Core.vcxproj">
       <Project>{20200B5F-8CD5-8354-15CA-7D2B817E7A58}</Project>
     </ProjectReference>

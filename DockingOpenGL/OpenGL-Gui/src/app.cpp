@@ -8,7 +8,7 @@ class MyGUI : public Application
 {
 public:
 	MyGUI()
-		:Application("demo")
+		:Application("LightFieldDemo(v0.1)")
 	{
 		PushLayer(new ContainerLayer());
 		PushLayer(new LayerRenderer());

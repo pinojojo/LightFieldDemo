@@ -1,14 +1,14 @@
 ﻿  ImWidgets.cpp
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(335,64): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(361,64): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(465,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(470,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(556,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(581,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(582,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(582,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(584,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(584,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(584,118): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\dev-framework\gui-start\DockingOpenGL\ImWidgts\ImWidgets.cpp(584,143): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  ImWidgts.vcxproj -> D:\dev-framework\gui-start\DockingOpenGL\x64\Debug\ImWidgts.lib
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(335,64): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(361,64): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(465,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(470,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(556,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(581,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(582,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(582,21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(584,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(584,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(584,118): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\ImWidgts\ImWidgets.cpp(584,143): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ImWidgts.vcxproj -> D:\dev-3d-demo\LightFieldDemo\DockingOpenGL\x64\Debug\ImWidgts.lib

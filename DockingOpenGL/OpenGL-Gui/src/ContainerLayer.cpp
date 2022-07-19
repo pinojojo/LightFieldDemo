@@ -7,8 +7,7 @@
 #include "../SnowTools/DataPool.h"
 #include "../ImWidgts/ImWidgets.h"
 
-
-
+#include "../LightField/LightFieldController.h"
 
 ContainerLayer::ContainerLayer()
 {
@@ -25,7 +24,6 @@ void ContainerLayer::OnAttach()
 	//CustomizeIconFonts();
 
 	//CustomizeUI();
-
 
 }
 
@@ -51,18 +49,13 @@ void ContainerLayer::OnImGuiRender()
 
 	ImPlot::ShowDemoWindow();
 
-
 	TestSomething();
 
-
-
 }
-
 
 void ContainerLayer::DrawDockSpace()
 {
 	//ImGui::DockSpaceOverViewport(ImGui::GetMainViewport());
-
 
 	static bool opt_fullscreen = true;
 	static bool opt_padding = false;
@@ -117,20 +110,10 @@ void ContainerLayer::DrawDockSpace()
 	}
 	else
 	{
-		
+
 	}
 
-
-
-
-
-
 	ImGui::End();
-
-
-
-
-
 
 }
 
@@ -147,15 +130,16 @@ void ContainerLayer::TestSomething()
 		ImGui::End();
 	}
 
-
-
-
-
 	ImGuiWindowFlags window_flags = 0;
 	static bool OpenedB = true;
 	window_flags = ImGuiWindowFlags_MenuBar;
 
 	ImGui::Begin("testB", &OpenedB, window_flags);
+
+	if (ImGui::Button("affinity window"))
+	{
+		LightFieldController::GetInstance().CreateAffinityWindow(10, 10, 100, 100);
+	}
 
 	ImGui::Text("banana");
 
@@ -165,8 +149,6 @@ void ContainerLayer::TestSomething()
 	}
 
 	ImGui::Text(ICON_MD_SHOPPING_BASKET);
-
-
 
 	{
 		static bool menu_status_1 = true;
@@ -204,7 +186,7 @@ void ContainerLayer::TestSomething()
 				snowtools::Float2 mousePos;
 				mousePos.x = ImGui::GetMousePos().x;
 				mousePos.y = ImGui::GetMousePos().y;
-			
+
 				DataPool::GetInstance().testRingbuffer.insert(mousePos);
 				Sleep(17);
 			}
@@ -212,7 +194,7 @@ void ContainerLayer::TestSomething()
 
 		if (ImGui::Button(u8"创建生产线程"))
 		{
-			
+
 			std::thread t_test(ThreadFunctionProducer);
 			t_test.detach();
 		}
@@ -229,8 +211,7 @@ void ContainerLayer::TestSomething()
 				consumerText += " ";
 				consumerText += std::to_string(int(latest.y));
 			}
-			
-			
+
 		}
 
 		ImGui::Text(consumerText.c_str());
@@ -246,7 +227,6 @@ void ContainerLayer::TestSomething()
 			refText += std::to_string(int(refPos.y));
 		}
 		ImGui::Text(refText.c_str());
-
 
 		// 测试自定义组件 ImWidgets
 		ImVec2 beforeRect = ImGui::GetContentRegionAvail();
@@ -268,7 +248,7 @@ void ContainerLayer::TestSomething()
 			ImGui::AlignedInputFloat(u8"标签1", &aa1, 0.1, 0.5, "%.1f", 0.5, 1.0);
 
 			static float aa2 = 0;
-			ImGui::AlignedInputFloat(u8"长标签2", &aa2, 0, 0, "%.1f", 0.5,0.3);
+			ImGui::AlignedInputFloat(u8"长标签2", &aa2, 0, 0, "%.1f", 0.5, 0.3);
 
 			static float aa3 = 0;
 			ImGui::AlignedInputFloat(u8"长长长标签3", &aa3, 0, 0, "%.1f", 0.5, 0.3);
@@ -278,13 +258,11 @@ void ContainerLayer::TestSomething()
 		}
 		ImGui::EndFramedGroup();
 
-
 		ImGui::BeginFramedGroup(u8"另外一个FramedGroup");
 		{
 			ImGui::Text("another group");
 		}
 		ImGui::EndFramedGroup();
-
 
 		// 测测试多个字体
 		ImGui::PushFont(ImGuiStyleConfig::GetInstance().TitleFont);
@@ -309,11 +287,8 @@ void ContainerLayer::TestSomething()
 			ImGui::MenuItem("aaa", NULL, &item2);
 			ImGui::Separator();
 
-
-
 			ImGui::EndMenu();
 		}
-
 
 		ImGui::EndMainMenuBar();
 	}
@@ -323,16 +298,11 @@ void ContainerLayer::TestSomething()
 
 	// 测试旋转字体
 	static int ml[2] = { 0,0 };
-	ImGui::InputInt(u8"位置x", &ml[0],1,10);
-	ImGui::InputInt(u8"位置y", &ml[1],1,10);
+	ImGui::InputInt(u8"位置x", &ml[0], 1, 10);
+	ImGui::InputInt(u8"位置y", &ml[1], 1, 10);
 
 	ImGui::TextVertical(u8"abcd123", ImGui::GetCursorScreenPos(), ImGui::GetColorU32(ImVec4(1.0, 1.0, 1.0, 1.0)));
 	ImGui::Text(u8"我是横着的");
-
-	
-
-
-
 
 	ImGui::End();
 
